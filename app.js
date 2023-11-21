@@ -51,7 +51,7 @@ app.use(methodOverride('_method'))
 //app.use(express.cookieSession());
 
 app.use(session({
-  secret: process.env["SESSION_SECRET"],
+  secret: "asdfgjsldkfjslkdfj",
   resave: false,
   saveUninitialized: false
 }))
